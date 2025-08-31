@@ -1,0 +1,9 @@
+{
+    "You Regisered Successfully and your OTP Code is: " : "تم تسجيل البيانات بنجاح , ورمز التحقق الخاص بك هو : ",
+    "Your OTP-Code Is Correct, Login Now" : "رقم التحقق الخاص بك سليم , يمكنك تسجيل الدخول الأن",
+    "Your OTP-Code is Incorrect" : "رمز التحقق الخاص بك غير صحيح ",
+    "Invalid Email or Password" : "خطأ بالإيميل الخاص بك أو الباسورد",
+    "Resend Your OTP Code" : "قم بإعادة إرسال رمز التحقق الخاص بك",
+    "Login Successfully" : "تم تسجيل الدخول بنجاح",
+    "Logout Successfully" : "تم تسجيل الخروج بنجاح"
+}

@@ -1,0 +1,9 @@
+{
+    "You Regisered Successfully and your OTP Code is: " : "You Regisered Successfully and your OTP Code is: " ,
+    "Your OTP-Code Is Correct, Login Now" : "Your OTP-Code Is Correct, Login Now",
+    "Your OTP-Code is Incorrect" : "Your OTP-Code is Incorrect",
+    "Invalid Email or Password" : "Invalid Email or Password",
+    "Resend Your OTP Code" : "Resend Your OTP Code",
+    "Login Successfully" : "Login Successfully",
+    "Logout Successfully" : "Logout Successfully"
+}
