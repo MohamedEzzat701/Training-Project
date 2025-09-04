@@ -6,5 +6,12 @@ use Illuminate\Database\Eloquent\Model;
 
 class ExclusiveOffer extends Model
 {
-    //
+    protected $fillable = [
+        'product_id',
+    ];
+
+    public function products()
+    {
+        return $this->hasMany(Product::class);
+    }
 }

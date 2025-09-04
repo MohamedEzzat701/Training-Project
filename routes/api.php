@@ -13,6 +13,6 @@ Route::controller(AuthController::class)->group(function(){
     Route::post('login','login');
     Route::post('verify_otp','verify_otp');
     Route::post('logout','logout')->middleware('auth:sanctum');
-});
+})->middleware('SetLocale');
 
 
