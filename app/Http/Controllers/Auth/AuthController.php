@@ -27,7 +27,7 @@ class AuthController extends Controller
         return response()->json(['message'=>__('You Regisered Successfully and your OTP Code is: '). $otp_code], 201);
     }
 
-    public function verify_otp(VerifyRequest $request)
+    public function verifyOtp(VerifyRequest $request)
     {
         $user=User::where('phone',$request->phone)
                     ->where('otp_code',$request->otp_code)

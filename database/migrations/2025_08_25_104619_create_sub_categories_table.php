@@ -13,8 +13,8 @@ return new class extends Migration
     {
         Schema::create('sub_categories', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
-            $table->foreignId('category_id')->nullable()->constrained('category')->cascadeOnDelete();
+            $table->json('name');
+            $table->foreignId('category_id')->nullable()->constrained('categories')->cascadeOnDelete();
             $table->timestamps();
         });
     }
