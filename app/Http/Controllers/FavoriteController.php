@@ -54,7 +54,7 @@ class FavoriteController extends Controller
                 ->where('user_id',$user_id)
                 ->first();
                 if(!$favorite){
-                    return response()->json(__('Favorite Not Found'),404);
+                    return response()->json(__('Not Found In Favorites'),404);
                 }
         $favorite->delete();
         return response()->json(null, 204);

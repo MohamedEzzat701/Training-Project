@@ -11,7 +11,6 @@ use Spatie\Translatable\HasTranslations;
 
 class ProductController extends Controller
 {
-
     use HasTranslations;
   
     public function index(Request $request)
